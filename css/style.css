@@ -1,0 +1,271 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+*
+{
+    margin: 0;
+    word-wrap: break-word;
+    color: black;
+    text-decoration: none;
+}
+
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("../images/tlo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    position: relative;
+}
+
+header
+{
+    top:0;
+    padding: 1% 1%;
+    background-color: rgba(156, 124, 81, 0.7);
+    border-radius: 0 0 5% 5%;
+    max-height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    width: 98%;
+}
+
+#naglHeader
+{
+    width: 90%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    align-content: center;
+}
+
+img
+{
+    width: 7%;
+    border-radius: 5%;
+}
+
+#naglHeader h1
+{
+    font-size:350%;
+    width: 60%;
+    text-align: left;
+}
+
+#naglHeader h3
+{
+    font-size: x-large;
+    width: 10%;
+    text-align: center;
+}
+
+main
+{
+    width: 88%;
+    padding: 0% 6% 0% 6%;
+}
+
+#problematyka, #postacie, #streszcz, #znaczTytul
+{
+    border-radius: 1vh;
+    padding: 2vh 2vw;
+    background-color: rgba(100, 84, 62, 0.6);
+    margin: 2% 0;
+}
+
+.naglTresc
+{
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.naglTresc h1
+{
+    font-size: 250%;
+}
+
+.naglTresc p, footer p
+{
+    font-size: large;
+}
+
+footer
+{
+    border-radius: 10% 10% 0 0;
+    background-color: rgba(156, 124, 81, 0.7);
+    padding: 2vh 2vw;
+    text-align: center;
+}
+
+a:hover
+{
+    color: rgb(116, 95, 95);
+    cursor:pointer;
+}
+
+h2
+{
+    margin-bottom: 1vh;
+}
+
+#overlay
+{
+    visibility: hidden;
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2000;
+    width: 100%;
+    height: 100%;
+}
+
+#zamkBibl
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+#zamkBibl:hover
+{
+    opacity: 0.6;
+}
+
+#bibliografia
+{
+    text-align: center;
+    border-radius: 1vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    max-width: 50%;
+    background-color: white;
+    padding: 2vh 2vw;
+}
+
+#gora
+{
+    z-index: 1000;
+    position: absolute;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+
+#gora:hover
+{
+    opacity: 0.6;
+}
+
+#tbPostacie
+{
+    font-size:x-large;
+    text-align: center;
+    width: 100%;
+    padding: 1vh 1vw;
+    border-spacing: 1vh;
+}
+
+td
+{
+    border-radius: 1vh;
+    background-color: rgba(148, 107, 80, 0.8);
+    border: 0.15vw dotted black;
+    padding: 1vh 1vw;
+}
+
+td p
+{
+    text-align: justify;
+}
+
+.pCytat
+{
+    font-weight: bold;
+    margin-bottom: 1vh;
+    text-align: center;
+}
+
+td h2
+{
+    font-size:200%;
+}
+
+.glTresc
+{
+    text-align: center;
+    border-radius: 1vh;
+    background-color: rgba(148, 107, 80, 0.8);
+    border: 0.15vw dotted black;
+    padding: 1vh 1vw;
+    font-size: x-large;
+}
+
+.glTresc p
+{
+    text-align: justify;
+}
+
+.glTresc img
+{
+    margin-top: 1vh;
+    width: 20%;
+}
+
+.glTresc
+{
+    border-radius: 1vh;
+    background-color: rgba(148, 107, 80, 0.8);
+    border: 0.15vw dotted black;
+    padding: 1vh 1vw;
+    text-align: justify;
+    font-size: x-large;
+}
+
+.glTresc > p
+{
+    margin-top: 1vh;
+}
+
+.glTresc h1
+{
+    text-align: center;
+}
+
+#tbProbl
+{
+    font-size:xx-large;
+    text-align: center;
+    width: 100%;
+    padding: 1vh 1vw;
+    border-spacing: 1vh;
+}
+
+td img
+{
+    width: 60%;
+}
+
+#streszcz .glTresc
+{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#streszcz .glTresc p
+{
+    width: 55%;
+}
